@@ -32,6 +32,32 @@
     }
 }
 
+@media (max-width: 768px) { /* Apply only for mobile */
+    .effective-content { 
+        margin-left: -15% !important; /* Adjust value as needed */
+        
+    }
+}
+
+@media (max-width: 768px) { /* Target mobile screens */
+    .effective-img {
+        margin-left: -20%; 
+        
+    }
+}
+
+
+
+@media (max-width: 768px) { /* Target mobile screens */
+    .home__img {
+        top: 48%;
+right: 48px !important;
+    }
+}
+
+
+
+
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -358,7 +384,15 @@ margin-left: 33%;
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
+
+@media (max-width: 768px) { /* Apply only for mobile */
+    .footer__title {
+        margin-top: 3% !important; /* Override existing styles if necessary */
+    }
+}
+
 .footer__title {
+margin-top: 2%;
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
