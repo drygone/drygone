@@ -51,7 +51,7 @@
 @media (max-width: 768px) { /* Target mobile screens */
     .home__img {
         top: 48%;
-right: 33px !important;
+        right: 33px !important;
     }
 }
 
